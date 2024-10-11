@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.imagen{
+    align-items: center;
+    justify-content: center;
+    width: 200px; /* ajusta el ancho de la imagen */
+    border: 1px solid black; /* borde de la imagen */ 
+    border-radius: 10px;
+
+}
+
+.linkedln-link{
+    color: rgb(0, 0, 0); /* cambia el color del enlace */
+    text-decoration: none; /* elimina el subrayado */
+
+}
+
+.linkedln-link:hover{
+    text-decoration: underline; /* agrega un subrayado al pasar el mouse, si lo deseas */
+}
+
+.contenedor{
+    text-align: center;    /* centra el contenido del contenedor */
+}
+
+body {
+    font-family: 'arial', sans-serif;
+    background-color: #b69999;
+    color: #333;
+}
+
+.container {
+    width: 70%;
+    max-width: 800px;
+    margin: 100px auto;
+    background: rgb(194, 186, 186);
+    border-radius: 30px;
+    box-shadow: 50 50px 50px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+}
+
+header {
+    text-align: center;
+    border-bottom: 2px solid #442323;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: #007bff;
+    font-size: 2.5em;
+}
+
+h2 {
+    color: #007BFF;
+    margin-top: 30px;
+}
+
+.trabajo, .degree {
+    background: #b8a9a9;
+    border-left: 10px solid #007BFF;
+    padding: 15px;
+    margin: 15px 0;
+}
+
+.habilidades ul {
+    list-style-type: square;
+    padding-left: 25px;
+}
+
+.habilidades li {
+    margin: 7px 0;
+}
+
+.footer{
+    text-align: justify;
+}
